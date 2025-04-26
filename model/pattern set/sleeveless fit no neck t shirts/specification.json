@@ -1,0 +1,526 @@
+{
+  "pattern": {
+    "panels": {
+      "back": {
+        "translation": [
+          -0.17666666666666703,
+          9.85,
+          -15.51
+        ],
+        "edges": [
+          {
+            "endpoints": [
+              4,
+              3
+            ]
+          },
+          {
+            "endpoints": [
+              3,
+              2
+            ]
+          },
+          {
+            "endpoints": [
+              2,
+              1
+            ],
+            "curvature": [
+              0.3,
+              0.4
+            ]
+          },
+          {
+            "endpoints": [
+              1,
+              0
+            ]
+          },
+          {
+            "endpoints": [
+              0,
+              7
+            ],
+            "curvature": [
+              0.5,
+              2.239788573912568
+            ]
+          },
+          {
+            "endpoints": [
+              7,
+              6
+            ]
+          },
+          {
+            "endpoints": [
+              6,
+              5
+            ],
+            "curvature": [
+              0.7,
+              0.4
+            ]
+          },
+          {
+            "endpoints": [
+              5,
+              4
+            ]
+          }
+        ],
+        "rotation": [
+          180.0,
+          -0.0,
+          180.0
+        ],
+        "vertices": [
+          [
+            8.699498421056465,
+            19.583333333333332
+          ],
+          [
+            17.28943712961304,
+            19.583333333333332
+          ],
+          [
+            20.432971153179047,
+            -4.5849240916357505
+          ],
+          [
+            27.15629355749892,
+            -40.15264650173465
+          ],
+          [
+            -27.15629355749892,
+            -40.15264650173465
+          ],
+          [
+            -20.432971153179047,
+            -4.5849240916357505
+          ],
+          [
+            -17.28943712961304,
+            19.583333333333332
+          ],
+          [
+            -8.699498421056465,
+            19.583333333333332
+          ]
+        ]
+      },
+      "front": {
+        "translation": [
+          0.17666666666666703,
+          10.743979826009564,
+          18.759999999999998
+        ],
+        "edges": [
+          {
+            "endpoints": [
+              4,
+              5
+            ]
+          },
+          {
+            "endpoints": [
+              5,
+              6
+            ]
+          },
+          {
+            "endpoints": [
+              6,
+              7
+            ],
+            "curvature": [
+              0.3,
+              0.4
+            ]
+          },
+          {
+            "endpoints": [
+              7,
+              8
+            ]
+          },
+          {
+            "endpoints": [
+              8,
+              0
+            ]
+          },
+          {
+            "endpoints": [
+              0,
+              1
+            ]
+          },
+          {
+            "endpoints": [
+              1,
+              2
+            ]
+          },
+          {
+            "endpoints": [
+              2,
+              3
+            ],
+            "curvature": [
+              0.7,
+              0.4
+            ]
+          },
+          {
+            "endpoints": [
+              3,
+              4
+            ]
+          }
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertices": [
+          [
+            0.0,
+            11.253120604615539
+          ],
+          [
+            -8.699498421056465,
+            18.703703703703702
+          ],
+          [
+            -17.28943712961304,
+            18.703703703703702
+          ],
+          [
+            -20.432971153179047,
+            -5.464553721265374
+          ],
+          [
+            -27.15629355749892,
+            -41.032276131364284
+          ],
+          [
+            27.15629355749892,
+            -41.032276131364284
+          ],
+          [
+            20.432971153179047,
+            -5.464553721265374
+          ],
+          [
+            17.28943712961304,
+            18.703703703703702
+          ],
+          [
+            8.699498421056465,
+            18.703703703703702
+          ]
+        ]
+      }
+    },
+    "stitches": [
+      [
+        {
+          "edge": 3,
+          "panel": "back"
+        },
+        {
+          "edge": 6,
+          "panel": "front"
+        }
+      ],
+      [
+        {
+          "edge": 1,
+          "panel": "back"
+        },
+        {
+          "edge": 8,
+          "panel": "front"
+        }
+      ],
+      [
+        {
+          "edge": 7,
+          "panel": "back"
+        },
+        {
+          "edge": 1,
+          "panel": "front"
+        }
+      ],
+      [
+        {
+          "edge": 5,
+          "panel": "back"
+        },
+        {
+          "edge": 3,
+          "panel": "front"
+        }
+      ]
+    ],
+    "panel_order": [
+      "back",
+      "front"
+    ]
+  },
+  "properties": {
+    "curvature_coords": "relative",
+    "normalize_panel_translation": false,
+    "units_in_meter": 100,
+    "normalized_edge_loops": true
+  },
+  "parameters": {
+    "low_wide": {
+      "influence": [
+        {
+          "edge_list": [
+            {
+              "direction": "both",
+              "id": 0
+            }
+          ],
+          "panel": "back"
+        },
+        {
+          "edge_list": [
+            {
+              "direction": "both",
+              "id": 0
+            }
+          ],
+          "panel": "front"
+        }
+      ],
+      "range": [
+        0.7,
+        2.5
+      ],
+      "type": "length",
+      "value": 1.3290428178025313
+    },
+    "length": {
+      "influence": [
+        {
+          "edge_list": [
+            {
+              "direction": "start",
+              "id": 1
+            },
+            {
+              "direction": "end",
+              "id": 8
+            }
+          ],
+          "panel": "front"
+        },
+        {
+          "edge_list": [
+            {
+              "direction": "start",
+              "id": 1
+            },
+            {
+              "direction": "end",
+              "id": 7
+            }
+          ],
+          "panel": "back"
+        }
+      ],
+      "range": [
+        0.3,
+        2.7
+      ],
+      "type": "length",
+      "value": 0.957095848186696
+    },
+    "collar_wide": {
+      "influence": [
+        {
+          "edge_list": [
+            {
+              "direction": "both",
+              "id": [
+                4,
+                5
+              ]
+            }
+          ],
+          "panel": "front"
+        },
+        {
+          "edge_list": [
+            {
+              "direction": "both",
+              "id": 4
+            }
+          ],
+          "panel": "back"
+        }
+      ],
+      "range": [
+        0.5,
+        1.5
+      ],
+      "type": "length",
+      "value": 1.1069704804642524
+    },
+    "bcollar_depth": {
+      "influence": [
+        {
+          "edge_list": [
+            4
+          ],
+          "panel": "back"
+        }
+      ],
+      "range": [
+        0.1,
+        12
+      ],
+      "type": "curve",
+      "value": 7.465961913041894
+    },
+    "wideness": {
+      "influence": [
+        {
+          "edge_list": [
+            {
+              "direction": "both",
+              "id": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "direction": "both",
+              "id": 0
+            }
+          ],
+          "panel": "front"
+        },
+        {
+          "edge_list": [
+            {
+              "direction": "both",
+              "id": [
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "direction": "both",
+              "id": 0
+            }
+          ],
+          "panel": "back"
+        }
+      ],
+      "range": [
+        0.9,
+        1.5
+      ],
+      "type": "length",
+      "value": 0.9430602070698023
+    },
+    "fcollar_depth": {
+      "influence": [
+        {
+          "edge_list": [
+            {
+              "direction": "start",
+              "along": [
+                0,
+                1
+              ],
+              "id": 5
+            }
+          ],
+          "panel": "front"
+        }
+      ],
+      "range": [
+        0.1,
+        3
+      ],
+      "type": "length",
+      "value": 0.6386214084932715
+    },
+    "sldepth": {
+      "influence": [
+        {
+          "edge_list": [
+            {
+              "direction": "end",
+              "along": [
+                0,
+                1
+              ],
+              "id": 7
+            },
+            {
+              "direction": "start",
+              "along": [
+                0,
+                1
+              ],
+              "id": 2
+            }
+          ],
+          "panel": "front"
+        },
+        {
+          "edge_list": [
+            {
+              "direction": "end",
+              "along": [
+                0,
+                1
+              ],
+              "id": 6
+            },
+            {
+              "direction": "start",
+              "along": [
+                0,
+                1
+              ],
+              "id": 2
+            }
+          ],
+          "panel": "back"
+        }
+      ],
+      "range": [
+        0.85,
+        2.5
+      ],
+      "type": "length",
+      "value": 1.4500954454981452
+    }
+  },
+  "parameter_order": [
+    "collar_wide",
+    "fcollar_depth",
+    "bcollar_depth",
+    "wideness",
+    "length",
+    "low_wide",
+    "sldepth"
+  ]
+}

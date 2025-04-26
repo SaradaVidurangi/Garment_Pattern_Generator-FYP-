@@ -1,0 +1,123 @@
+{
+    "dress": {
+      "measurement_type": "waist_length",
+      "values": {
+        "XS": 36.83,
+        "S": 39.37,
+        "M": 42.0,
+        "L": 44.45,
+        "XL": 48.89,
+        "2XL": 53.34
+      },
+      "unit": "cm"
+    },
+    "sleeveless_dress": {
+      "measurement_type": "waist_length",
+      "values": {
+        "XS": 36.83,
+        "S": 39.37,
+        "M": 42.0,
+        "L": 44.45,
+        "XL": 48.89,
+        "2XL": 53.34
+      },
+      "unit": "cm"
+    },
+    "jumpsuit": {
+      "measurement_type": "waist_length",
+      "values": {
+        "XS": 36.83,
+        "S": 39.37,
+        "M": 42.0,
+        "L": 44.45,
+        "XL": 48.89,
+        "2XL": 53.34
+      },
+      "unit": "cm"
+    },
+    "sleeveless_jumpsuit": {
+      "measurement_type": "waist_length",
+      "values": {
+        "XS": 36.83,
+        "S": 39.37,
+        "M": 42.0,
+        "L": 44.45,
+        "XL": 48.89,
+        "2XL": 53.34
+      },
+      "unit": "cm"
+    },
+    "skirt": {
+      "measurement_type": "waist_length",
+      "values": {
+        "XS": 31.8,
+        "S": 34.29,
+        "M": 36.9,
+        "L": 40.0,
+        "XL": 43.78,
+        "2XL": 47.6
+      },
+      "unit": "cm"
+    },
+    "pant": {
+      "measurement_type": "waist_length",
+      "values": {
+        "XS": 30.0,
+        "S": 33.0,
+        "M": 35.0,
+        "L": 37.0,
+        "XL": 39.0,
+        "2XL": 41.0
+      },
+      "unit": "cm"
+    },
+    "tshirt": {
+      "measurement_type": "vertical_height",
+      "values": {
+        "XS": 57.15,
+        "S": 59.69,
+        "M": 62.23,
+        "L": 67.31,
+        "XL": 69.85,
+        "2XL": 72.39
+      },
+      "unit": "cm"
+    },
+    "sleeveless_tshirt": {
+      "measurement_type": "vertical_height",
+      "values": {
+        "XS": 57.15,
+        "S": 59.69,
+        "M": 62.23,
+        "L": 67.31,
+        "XL": 69.85,
+        "2XL": 72.39
+      },
+      "unit": "cm"
+    },
+    "croptop": {
+      "measurement_type": "vertical_height",
+      "values": {
+        "XS": 49.53,
+        "S": 50.16,
+        "M": 50.8,
+        "L": 52.7,
+        "XL": 54.61,
+        "2XL": 56.51
+      },
+      "unit": "cm"
+    },
+    "sleeveless_croptop": {
+      "measurement_type": "vertical_height",
+      "values": {
+        "XS": 49.53,
+        "S": 50.16,
+        "M": 50.8,
+        "L": 52.7,
+        "XL": 54.61,
+        "2XL": 56.51
+      },
+      "unit": "cm"
+    }
+  }
+  
