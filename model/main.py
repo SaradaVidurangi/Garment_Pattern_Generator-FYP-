@@ -20,10 +20,10 @@ matplotlib.use('Agg')  # Use non-GUI backend for Matplotlib to avoid issues with
 app = Flask(__name__)
 
 # File paths
-MODEL_PATH = r"E:\sem 7\fyp\model/model1.pt"
-PATTERN_SET_PATH = r"E:\sem 7\fyp\model\pattern set"
-SIZE_CHART_PATH = r"E:\sem 7\fyp\model/size_chart.json"
-CLASS_NAMES_PATH = r"E:\sem 7\fyp\model/class_names.json"
+MODEL_PATH = r"E:\sem 7\fyp\Garment_Pattern_Generator\model/model1.pt"
+PATTERN_SET_PATH = r"E:\sem 7\fyp\Garment_Pattern_Generator\model\pattern set"
+SIZE_CHART_PATH = r"E:\sem 7\fyp\Garment_Pattern_Generator\model/size_chart.json"
+CLASS_NAMES_PATH = r"E:\sem 7\fyp\Garment_Pattern_Generator\model/class_names.json"
 
 # Load class names from JSON file
 with open(CLASS_NAMES_PATH, "r") as f:
